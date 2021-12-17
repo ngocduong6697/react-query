@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useQuery, useQueryClient } from "react-query";
 
 import { PostDetail } from "./PostDetail";
-import { useQuery } from "react-query";
 const maxPostPage = 10;
 
 async function fetchPosts(pageNum) {
